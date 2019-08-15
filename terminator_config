@@ -1,0 +1,77 @@
+[global_config]
+  suppress_multiple_term_dialog = True
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[ros]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = d0a22bfa-c58a-4b4a-b7b5-c641b146c139
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 65:24
+      size = 1855, 1056
+      title = ytpc2019a@ytpc2019a: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 924
+      ratio = 0.499730458221
+      type = HPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 525
+      ratio = 0.5
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 525
+      ratio = 0.5
+      type = VPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = d0a22bfa-c58a-4b4a-b7b5-c641b146c139
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 9546c563-5f55-40e9-90bd-301166c1dd51
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = a528b0c1-f03e-431f-8dee-fc52dd126650
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = c4e20f96-7e96-42e0-8bda-faa9e734e95d
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#300a24"
+    background_darkness = 0.71
+    background_image = None
+    background_type = transparent
+    cursor_color = "#f9030b"
+    font = Ubuntu Mono Bold 14
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    use_system_font = False
