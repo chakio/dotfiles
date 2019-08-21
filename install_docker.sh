@@ -16,3 +16,9 @@ sudo add-apt-repository \
 sudo apt-get update -y
 sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 echo "docker installed"
+
+sudo gpasswd -a $(whoami) docker -y
+sudo chgrp docker /var/run/docker.sock
+sudo service docker restart -y
+
+sudo reboot -y
