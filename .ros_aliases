@@ -1,0 +1,6 @@
+CATKIN_HOME=${HOME}/catkin_ws
+alias cm="cd ${CATKIN_HOME} && catkin_make && cd -"
+
+DOCKER_ROS_HOME=${HOME}/chakio_dockerfiles/ros_develop
+alias ros_mode="cd ${DOCKER_ROS_HOME} && ./run.sh"
+alias rosterm='terminator -l ros&exit'

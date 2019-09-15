@@ -1,0 +1,6 @@
+#!/bin/bash
+cdls()
+{
+    \cd "$@" && ls
+}
+alias cd="cdls"
