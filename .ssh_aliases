@@ -1,0 +1,2 @@
+alias hsr='ssh administrator@hsrb.local'
+alias dlbv4='ssh dlbv4@dlbv4.local'
