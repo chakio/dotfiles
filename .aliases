@@ -4,3 +4,5 @@ cdls()
     \cd "$@" && ls
 }
 alias cd="cdls"
+
+alias doc="cd ~/chakio_dockerfiles"
