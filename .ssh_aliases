@@ -1,2 +1,2 @@
-alias hsr='ssh administrator@hsrb.local'
-alias dlbox='ssh dlbox@dlbox.local'
+alias hsr='ssh -Y -C administrator@hsrb.local'
+alias dlbox='ssh  -Y -C dlbox@dlbox.local'
