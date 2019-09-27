@@ -4,9 +4,9 @@ PS1='${debian_chroot:+($debian_chroot)}\[\e[1;31;40m\]<HOST>\[\033[01;32m\]\u@\h
 #
 # git-completion.bash / git-prompt.sh
 #
-if [ -f ~/dotfiles/git-completion.bash ]; then
-    source ~/dotfiles/git-completion.bash
-fi
+# if [ -f ~/dotfiles/git-completion.bash ]; then
+#     source ~/dotfiles/git-completion.bash
+# fi
 if [ -f ~/dotfiles/git-prompt.sh ]; then
     source ~/dotfiles/git-prompt.sh
 fi
