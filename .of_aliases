@@ -1,0 +1,2 @@
+OF_HOME=${HOME}/of_ws
+alias of="cd ${OF_HOME}"

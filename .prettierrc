@@ -1,4 +1,4 @@
-printWidth: 120 # 1行の文字数制限
+printWidth: 200 # 1行の文字数制限
 tabWidth: 4
 singleQuote: true
 trailingComma: none
