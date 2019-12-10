@@ -1,3 +1,4 @@
-alias hsr ='ssh -Y -C administrator@hsrb.local'
-alias dlbox ='ssh  -Y -C dlbox@dlbox.local'
-alias alien ='ssh  -Y -C ytnpc2018b@192.168.1.46'
+alias hsr='ssh -Y -C administrator@hsrb.local'
+alias dlbox='ssh  -Y -C dlbox@dlbox.local'
+alias printeps2017a='ssh  -Y -C printeps2017a@printeps2017a.local'
+alias alien='ssh  -Y -C ytnpc2018b@192.168.1.46'
