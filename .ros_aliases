@@ -1,13 +1,4 @@
 CATKIN_HOME=${HOME}/catkin_ws
 alias cm="cd ${CATKIN_HOME} && catkin_make && cd -"
 alias ros="cd ${CATKIN_HOME}"
-DOCKER_HOME=${HOME}/chakio_dockerfiles
-DOCKER_ROS_HOME=${DOCKER_HOME}/ros_mode
-DOCKER_HSR_HOME=${DOCKER_HOME}/hsr_mode
-DOCKER_MASTER_HOME=${DOCKER_HOME}/ros_master
-alias ros_mode="cd ${DOCKER_ROS_HOME} && ./run.sh"
-alias hsr_mode="cd ${DOCKER_HSR_HOME} && ./run.sh"
-alias master_mode="cd ${DOCKER_MASTER_HOME} && ./master_run.sh"
-alias sync_mode="cd ${DOCKER_MASTER_HOME} && ./sync_run.sh"
-alias node_manager="cd ${DOCKER_MASTER_HOME} && ./manager_run.sh"
 alias rosterm='terminator -l ros&exit'
