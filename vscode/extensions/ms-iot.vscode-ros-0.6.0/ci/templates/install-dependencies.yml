@@ -1,8 +1,0 @@
-steps:
-  - task: Npm@1
-    displayName: 'Install dependencies with package-lock.json'
-    inputs:
-      command: custom
-      verbose: false
-      customCommand: |
-        ci

@@ -1,4 +1,0 @@
-# steps:
-#   - task: PublishTestResults@2
-#     displayName: 'Publish tests results'
-#     inputs:
