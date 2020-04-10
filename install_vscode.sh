@@ -7,8 +7,18 @@ sudo apt-get install code
 
 
 #エディタの設定を共有
-rm  -rf ~/.config/Code/User/
+
+if [ -d ~/.config/Code/ ]; then
+	rm  -rf ~/.config/Code/User/
+else
+	mkdir ~/.config/Code/
+fi
 ln -fs ~/dotfiles/vscode/User/ ~/.config/Code/
 #プラグインを共有
-rm  -rf ~/.vscode/extentions/
+if [ -d ~/.vscode/ ]; then
+	rm  -rf ~/.vscode/extentions/
+else
+	mkdir ~/.vscode/
+fi
+
 ln -fs ~/dotfiles/vscode/extensions/ ~/.vscode/

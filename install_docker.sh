@@ -1,7 +1,9 @@
 #!/bin/sh
 
-docker -v&> /dev/null
-if [ $? -ne 0 ]; then
+type docker > /dev/null 2>&1
+if [ $? -eq 0 ]; then
+    echo "docker already installed"
+else    
     sudo apt-get update -y
     sudo apt-get install -y \
         apt-transport-https \
@@ -19,10 +21,7 @@ if [ $? -ne 0 ]; then
     sudo apt-get install docker-ce docker-ce-cli containerd.io -y
     echo "docker installed"
 
-    sudo gpasswd -a $(whoami) docker -y
+    sudo gpasswd -a $(whoami) docker
     sudo chgrp docker /var/run/docker.sock
-    sudo service docker restart -y
-
-else    
-    echo "docker already installed"
+    sudo service docker restart
 fi
