@@ -5,7 +5,8 @@ Please Check Commit Prefix Rule \\n
   ADD: A file was added to the folder \\n
   FEAT: A code changed that add a feature \\n
   FIX: A code changed that fix bugs \\n
-  REFACTOR: A code changed that neither fixes a bug nor add a feature \\n
+  REFACTOR: A code changed that neither fixes a bug nor add a feature 
+  WIP: Work in progress. Upload only.\\n
 "
 git() {
     if [[ $@ == "add -A" ]]; then
