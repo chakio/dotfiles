@@ -1,4 +1,5 @@
 PREFIXES="\\n
+============================================================================= \\n
 Please Check Commit Prefix Rule \\n
 \\n
   ADD: A file was added to the folder \\n
