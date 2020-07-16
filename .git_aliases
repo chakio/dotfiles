@@ -7,7 +7,7 @@ PREFIXES="Please Check Commit Prefix Rule \\n
 "
 git() {
     if [[ $@ == "add -A" ]]; then
-        command git add -A && echo -e $PREFIXES
+        command git add -A && git status && echo -e $PREFIXES
     else
         command git "$@"
     fi
