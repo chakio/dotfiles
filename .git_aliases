@@ -1,0 +1,15 @@
+PREFIXES="Please Check Commit Prefix Rule \\n
+\\n
+  ADD: A file was added to the folder \\n
+  FEAT: A code changed that add a feature \\n
+  FIX: A code changed that fix bugs \\n
+  REFACTOR: A code changed that neither fixes a bug nor add a feature \\n
+"
+git() {
+    if [[ $@ == "add -A" ]]; then
+        command git add -A && echo -e $PREFIXES
+    else
+        command git "$@"
+    fi
+}
+
