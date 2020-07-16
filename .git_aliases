@@ -1,4 +1,5 @@
-PREFIXES="Please Check Commit Prefix Rule \\n
+PREFIXES="\\n
+Please Check Commit Prefix Rule \\n
 \\n
   ADD: A file was added to the folder \\n
   FEAT: A code changed that add a feature \\n
