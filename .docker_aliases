@@ -1,10 +1,10 @@
 DOCKER_HOME=${HOME}/chakio_dockerfiles
-DOCKER_ROS_HOME=${DOCKER_HOME}/ros_mode
-DOCKER_HSR_HOME=${DOCKER_HOME}/hsr_mode
+DOCKER_ROS_HOME=${DOCKER_HOME}/ros_devel  
+DOCKER_HSR_HOME=${DOCKER_HOME}/hsr_devel
 DOCKER_MASTER_HOME=${DOCKER_HOME}/ros_master
 DOCKER_GPy_HOME=${DOCKER_HOME}/GPy
 DOCKER_GPy3_HOME=${DOCKER_HOME}/GPy3
-DOCKER_PYTHON_HOME=${DOCKER_HOME}/python_development
+DOCKER_PYTHON_HOME=${DOCKER_HOME}/python3_devel
 alias ros_mode="cd ${DOCKER_ROS_HOME} && ./run.sh"
 alias hsr_mode="cd ${DOCKER_HSR_HOME} && ./run.sh"
 alias master_mode="cd ${DOCKER_MASTER_HOME} && ./master_run.sh"
