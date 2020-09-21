@@ -73,5 +73,6 @@
     cursor_color = "#f9030b"
     font = Ubuntu Mono Bold 14
     foreground_color = "#ffffff"
+    scrollback_infinite = True
     show_titlebar = False
     use_system_font = False
