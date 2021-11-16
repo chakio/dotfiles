@@ -10,7 +10,7 @@ Please Check Commit Prefix Rule \\n
 "
 git() {
     if [[ $@ == "add -A" ]]; then
-        command git add -A && git status && echo -e $PREFIXES
+        command git add -A && git status && echo -e $PREFIXES && git log -1 --pretty=format:" LATEST COMMIT -  %ar  %s"
     else
         command git "$@"
     fi
