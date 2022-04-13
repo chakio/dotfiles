@@ -2,7 +2,7 @@ PREFIXES="\\n
 ============================================================================= \\n
 Please Check Commit Prefix Rule \\n
 \\n
-  :heavy_plus_sign: ADD: A file was added to the folder \\n
+  :inbox_tray: ADD: A file was added to the folder \\n
   :sparkles: FEAT: A code changed that add a feature \\n
   :hammer: FIX: A code changed that fix bugs \\n
   :art: REFACTOR: A code changed that neither fixes a bug nor add a feature  \\n
