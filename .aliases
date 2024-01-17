@@ -6,6 +6,7 @@ cdls()
 alias cd="cdls"
 
 alias doc="cd ~/chakio_dockerfiles"
+alias ap="nmcli device wifi hotspot"
 source $HOME/dotfiles/.docker_aliases
 source $HOME/dotfiles/.of_aliases
 source $HOME/dotfiles/.ros_aliases
